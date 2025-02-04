@@ -25,15 +25,17 @@
        
         <label>Gender:</label>
         <div>
-            <label> Male<input type="radio" name="gender_field" id="male"> </label>
-            <label>Female<input type="radio" name="gender_field" id="femalemale"> </label>
+            <label> Male<input type="radio" name="gender_field" id="male"></label>
+            <label>Female<input type="radio" name="gender_field" id="female"> </label>
         </div>
         <div>
             <label>Age:</label>
+            <div>
             <label><select>
                 <option value="age_field">Under 18</option>
                 <option value="age_field">Over 18</option>
             </select></label>
+        </div>
         </div>
        </Fieldset>
        <Fieldset>
@@ -67,7 +69,9 @@
             <textarea cols="30" rows="10" name="textarea_field"></textarea>
         </div>
         </Fieldset>
-    
+        <div>
+            <input type="hidden" name="hidden_field">
+        </div>
         <button type="button">Submit Query</button>
     </form>
 </body>
